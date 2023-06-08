@@ -1,0 +1,37 @@
+CLASS - MAY 14, 2023 - SUNDAY - CLASS 3 @5PM EST	
+
+INPUT FUNCTION
+
+THE INPUT FUNCTION IS A BUILT-IN PYTHON FUNCTION THAT ALLOWS USER INPUT. NOTE THAT THE INPUT GIVEN BY THE USER WILL BE TAKEN AS A STRING IN PYTHON, IRRESPECTIVE OF THE TYPE OF INPUT THE USER GIVES.
+
+INPUT FUNCTION LAB 1:
+
+# LAB 1 - WORKING ON THE INPUT () FUNCTION
+
+name = input("Enter Your Name To Start The Game: ")
+level = input("Enter Your Level Number To Continue The Game: ")
+print("Hello " + name + "! You are at Level " + level)
+
+# LAB 2 - BUILDING A CALCULATOR USING THE INPUT FUNCTION
+
+number1 = input("Please enter a number: ")
+number2 = input("Please enter a second number: ")
+result = int(number1) + int(number2)
+print(result)
+
+
+ # LAB 3 - BUILDING A PROMPT REPLY FROM A USER
+
+print("Hi user, how would you rate your mood on a scale from 1 to 10")
+
+mood_rating = input()
+print("You feel like a " + mood_rating + "." " Thanks for letting us know!")
+
+************************************************************************************************************************************************
+
+HOMEWORK ASSIGNMENT:
+
+Add to your python journal documenting your work.
+Write 5 pieces of code for each input function lab we did in class.
+Send all homework by Saturday 11:59 PM EST
+Send to my email: matthewstravels85@gmail.com
