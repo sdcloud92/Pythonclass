@@ -1,0 +1,67 @@
+PYTHON JOURNAL
+
+Note: Python is case-sensitive and does not like capital characters.
+
+STRING ATTRIBUTES:
+\ - The backslash character and quotation “\” allows the line to have a quote within the string.
+\n - Allows the code to space to the next line
+
+#Lab 1 Strings. below are a bunch of strings that we have written within our first python file
+
+ATTENTION TO DETAIL MATTERS - ATTENTION TO DETAIL MATTERS
+
+#Lab 1 Strings. Below are a bunch of strings that we have written our first python class.
+
+#This is an example of a normal string
+print("Today is a new day")
+print("My first string was created on 16 April 2023. I am so happy to have begun my python journey!")
+print("I love being a passport bro")
+print("I am conflicted between latino women and asian women")
+print("in the last two weeks, I have found myself liking south korean women more")
+print("I hope to one day meet a half brazillian, half japanese and quarter korean woman!")
+print("I use to crush hard on vivica fox")
+
+#This is an example of how to put quotations into a string
+print("\"Bruh!\" Allen Iverson is the greatest basketball player ever!")
+print("The best Brazilian movie of all time is ""\"City of God\".")
+
+#This is an example of how to put a new line into a string
+print("New\nline")
+print("Lebron James is a better basketball player than \nMichael Jordan")
+
+#Lab 2 Variables. This were the first variables we have written in the class
+
+#This is an example of a variable
+my_str = "Michael Jordan only won the NBA championship with one team. But Lebron won it with three!"
+print(my_str)
+
+my_str_another = "Allen Iverson may not have have won an NBA championship but he was technically better than MJ"
+print(my_str_another)
+
+blue = "This is what the sky looks like! "
+print(blue)
+
+blue_green_orange_purple = "These colors are terrible!"
+print(blue_green_orange_purple)
+
+#This is an example of how to use variables to deploy massive changes to a lot of code
+character_name = "Anis Bryant"
+character_age = "22"
+character_job = "The CEO of Microsoft and Twitter"
+character_country = "Japan"
+
+print("There was a passport bro called " +character_name+ ",")
+print("he is " +character_age+ " years old")
+print("He works as " +character_job+ ".")
+print("He got married to a beautiful half brazilian half japanese woman from " +character_country+ ".")
+
+#Lab 3 Comments.
+
+#This is example of a comment.  The hashtag at the beginning lets python know that we are working on a comment.
+
+Homework assignment
+Write 20 pieces of code each for strings, variables and comments.
+Spend two days doing strings. Two days doing variables. Two days doing comments.
+You must send all your homework by Saturday 11:59 PM EST
+Send email to: matthewstravels85@gmail.com
+Include Facebook name and Patreon Name in the description
