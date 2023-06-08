@@ -1,0 +1,156 @@
+CLASS - APRIL 23, 2023 - SUNDAY - CLASS 3 @6PM EST	
+
+ You can work with numbers in Python which makes Python an awesome Python language.
+
+- Task 1: Storing numbers within variables containers
+- Task 2: Playing with number functions
+    - Functions are statements that perform a specific task
+    - STR - prints out numbers alongside strings - converts a number to a string
+    - ABS - prints the absolute value of a number 
+    - POWER - allows you to pass two pieces of numerical data to get the power of the particular number
+    - MAX function - gives you the highest function number you put in brackets or parenthesis
+    - MIN function - opposite of the MAX function
+    - ROUND function - rounds the number 
+    - IMPORT function - used to import other math functions to use (from math import “)
+
+STR () FUNCTION
+
+A function is a piece of code in python that performs a specific task
+
++ OPERATOR
+
+In python, operators are special characters used for a specific operation. Operators are usually used to link several operands (values/data) to form a new value.
+
+*****************************************************************************************************************************************************************
+
+#CLASS 3 - STORING NUMBERS WITHIN VARIABLES
+
+my_num = 50 
+print(my_num)
+
+my_num = 150 
+print(my_num)
+
+my_num = 200
+print(my_num)
+
+my_num = 10
+print(my_num)
+
+number_my = 5
+print(number_my)
+
+my_num = 1000
+print(my_num)
+
+my_string = 100
+print(my_string)
+
+my_num = 90
+print(str(my_num) + " is the best number ever!")
+
+#USING THE STR FUNCTION () TO CONVERT A NUMBER INTO A STRING
+
+my_num = 23
+print(my_num)
+
+my_num2 = 75
+print(my_num2)
+
+#COMMON NUMBER FUNCTIONS TO USE IN PYTHON
+#ABS FUNCTION  - THIS PRINTS THE ABSOLUTE VALUE OF A NUMBER
+
+my_num = 80
+print(abs(my_num))
+
+my_num2 =  -50
+print(abs(my_num2))
+
+my_num3 = -15
+print(abs(my_num3))
+
+my_num4 = -10
+print(abs(my_num4))
+
+my_num5 = -20
+print(abs(my_num5))
+
+#COMMON NUMBER FUNCTIONS TO USE IN PYTHON
+#POWER FUNCTION - THIS ALLOWS US TO PASS IN TWO PIECES OF NUMERICAL INFORMATION TO GET THE POWER RESULT FROM THE NUMBER
+
+print(pow(3,5))
+print(pow(4,9))
+print(pow(8,100))
+print(pow(90,40))
+print(pow(4,9))
+
+#COMMON NUMBER FUNCTIONS TO USE IN PYTHON
+#MAX FUNCTION - THIS GIVES YOU THE HIGHEST NUMBER OUT OF THE NUMBERS YOU PUT IN THE PARENTHESIS
+
+print(max(4,2))
+print(max(8,100,))
+print(max(50,20))
+print(max(1,2))
+print(max(45,97))
+
+#COMMON NUMBER FUNCTIONS TO USE IN PYTHON
+#MIN FUNCTION - THIS IS THE OPPOSITE OF THE MAX FUNCTION - MINIMUM NUMBER FROM TWO NUMERICAL VALUES
+
+print(min(2,1))
+print(min(5,9))
+print(min(10,15))
+print(min(4,16))
+print(min(100,250))
+print(min(30,40))
+
+#COMMON NUMBER FUNCTIONS TO USE IN PYTHON
+#ROUND FUNCTION - THIS ROUNDS THE NUMBER TO IT'S CORRECT VALUE
+
+print(round(8.6))
+print(round(7.1))
+print(round(9.0))
+print(round(5.2))
+print(round(8.7))
+
+#COMMON NUMBER FUNCTIONS TO USE IN PYTHON
+#IMPORT FUNCTION - USED TO IMPORT OTHER MATH FUNCTIONS TO USE IN YOUR PYTHON PROGRAM
+
+from math import * (required command in order to use the square root function in python)
+
+print(sqrt(90))
+print(sqrt(150))
+print(sqrt(20))
+print(sqrt(35))
+print(sqrt(70))
+
+#COMMON NUMBER FUNCTIONS TO USE IN PYTHON
+#IMPORT FUNCTION - USED TO IMPORT OTHER MATH FUNCTIONS TO USE IN YOUR PYTHON PROGRAM
+
+from math import * (required command in order to use the square root function in python)
+print(tan(40))
+print(tan(20))
+print(tan(90))
+print(tan(65))
+print(tan(23))
+
+URL FOR ALL THE MATHEMATICAL FUNCTIONS WITHIN PYTHON IMPORT (FROM MATH IMPORT *) :
+https://docs.python.org/3/library/math.html
+
+**************************************************************************************************************************************************
+HOMEWORK ASSIGNMENT:
+
+Add to your python journal documenting your work.
+Write 5 pieces of code each for each numbers topic we worked in today
+
+- STR FUNCTION
+- ABS FUNCTION
+- POWER FUNCTION
+- MAX FUNCTION
+- MIN FUNCTION
+- ROUND FUNCTION
+- IMPORT FUNCTION (FROM MATH IMPORT *) 
+    - SQRT
+    - TAN
+
+Send all homework by Saturday 11:59 PM EST
+Send to my email: matthewstravels85@gmail.com
