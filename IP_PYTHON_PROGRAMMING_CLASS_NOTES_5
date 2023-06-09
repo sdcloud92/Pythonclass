@@ -1,0 +1,96 @@
+CLASS - MAY 28, 2023 - SUNDAY - CLASS 5 @6PM EST
+
+LIST FUNCTIONS
+
+- Using functions in your lists allow your lists to do something to improve your code and make it more efficient for you to work with. 
+- Remember a function is a piece of code that allows you to perform a single, related action.
+
+LIST FUNCTIONS THAT WE WILL BE PLAYING WITH:
+
+- Each one of the elements in your lists have a particular numeric index.
+- Extend function - allows you to take a list and append another list onto the end of it
+- Append function - allows you to add further data to the list
+- Insert function - allows you to add anywhere in your list
+- Remove function - allows you to remove from the list
+- Clear function - allows your to clear the entire list
+- Index function - allows you to understand the number order of the list
+- Count function - allows you to know how many list items are within a given list
+- Sort function - allows your list to be alphabetized or arranged in numerical order
+- Reverse function - allows your list to be put in reverse order
+
+NOTE: PYTHON IS CASE SENSITIVE
+
+# LAB 1 - EXTEND FUNCTION
+
+Anime = ["Naruto", "Bleach", "Attack on Titan", "Captain Tsubasa", "Dragon Ball Z"]
+Cars = ["Tesla", "BMW", "Range Rover", "Aston Martin", "Mercedes"]
+Anime.extend(Cars)
+print(Anime)
+
+# LAB 2 - APPEND FUNCTION
+
+Anime = ["Naruto", "Bleach", "Attack on Titan", "Captain Tsubasa", "Dragon Ball Z"]
+Cars = ["Tesla", "BMW", "Range Rover", "Aston Martin", "Mercedes"]
+Anime.append("Death Note")
+print(Anime)
+
+# LAB 3 - INSERT FUNCTION
+
+Anime = ["Naruto", "Bleach", "Attack on Titan", "Captain Tsubasa", "Dragon Ball Z"]
+Cars = ["Tesla", "BMW", "Range Rover", "Aston Martin", "Mercedes"]
+Anime.insert(4, "Gundam")
+print(Anime)
+
+Anime = ["Naruto", "Bleach", "Attack on Titan", "Captain Tsubasa", "Dragon Ball Z"]
+Cars = ["Tesla", "BMW", "Range Rover", "Aston Martin", "Mercedes"]
+Anime.insert(0, "Shaman King")
+print(Anime)
+
+# LAB 4 - REMOVE FUNCTION
+
+Anime = ["Naruto", "Bleach", "Attack on Titan", "Captain Tsubasa", "Dragon Ball Z"]
+Cars = ["Tesla", "BMW", "Range Rover", "Aston Martin", "Mercedes"]
+Anime.remove("Bleach")
+print(Anime)
+
+# LAB 5 - CLEAR FUNCTION
+
+Anime = ["Naruto", "Bleach", "Attack on Titan", "Captain Tsubasa", "Dragon Ball Z"]
+Cars = ["Tesla", "BMW", "Range Rover", "Aston Martin", "Mercedes"]
+Anime.clear()
+print(Anime)
+
+# LAB 6 - INDEX FUNCTION
+
+Anime = ["Naruto", "Bleach", "Attack on Titan", "Captain Tsubasa", "Dragon Ball Z"]
+Cars = ["Tesla", "BMW", "Range Rover", "Aston Martin", "Mercedes"]
+print(Anime.index("Attack on Titan"))
+
+# LAB 7 - COUNT FUNCTION
+
+Anime = ["Naruto", "Bleach", "Bleach", "Bleach", "Bleach", "Attack on Titan", "Captain Tsubasa", "Dragon Ball Z"]
+Cars = ["Tesla", "BMW", "Range Rover", "Aston Martin", "Mercedes"]
+print(Anime.count("Captain Tsubasa"))  
+
+# LAB 8 - SORT FUNCTION
+
+Numbers = ["9", "8", "2", "5", "1",]
+Cars = ["Tesla", "BMW", "Range Rover", "Aston Martin", "Mercedes"]
+Numbers.sort()
+print(Numbers)  
+
+# LAB 9 - REVERSE FUNCTION
+
+Anime = ["Naruto", "Death Note", "Dragon Ball Z", "One Piece", "Bleach"]
+Cars = ["Tesla", "BMW", "Range Rover", "Aston Martin", "Mercedes"]
+Anime.reverse()
+print(Anime)  
+
+************************************************************************************************************************************************
+
+HOMEWORK:
+
+- Add to your python journal documenting your work. 
+- Write 5 pieces of code for each list labs we worked on today.
+- Send all homework by Saturday 11:59 PM EST
+- Send to my email: matthewstravels85@gmail.com
