@@ -1,0 +1,64 @@
+CLASS - June 4, 2023 - SUNDAY - CLASS 6 @6PM EST
+
+Today’s class was concerning using the TUPLE function. Tuples are IMMUTABLE (Please remember this)
+
+TUPLES
+
+- A Tuple is a type of data structure, which basically means that it’s a container where we can store different values, it is where we can store multiple pieces of information in a single variable. 
+- Similar to lists but two key differences:
+    - Tuples are defined by enclosing the elements in parenthesis () instead of square brackets [] for lists.
+    - Tuples are immutable (meaning they cannot be changed or modified) and lists are mutable (meaning they can be changed).
+    - If you need to modify your data, then the mutability you have with list is what you want
+    - If you want a list of values that you know are not going to change then you should use a tuple.
+    - Majority of the time you will use lists. Tuples are mostly used in a particular situations, e.g. numbers in your code that must not be changed.
+
+# LAB 1 - CREATING OUR FIRST TUPLE
+
+tuple = ("Tesla", "Bently", "Hummer", "Jeep", "Ferrari")
+print(tuple)
+
+anime = ("Naruto", "Bleach", "Dragon Ball", "Hunter X Hunter")
+print(anime)
+
+latops = ("HP", "Samsung", "Apple", "Sony")
+print(latops)
+
+numbers = (5,9,2,1,0)
+print(numbers)
+
+countries = ("Japan", "Spain", "Morocco", "Canada")
+print(countries)
+
+# LAB 2 - PRINTING A SINGLE VALUE FROM OUR TUPLE
+
+tuple = ("Tesla", "Bently", "Ferrari", "Nissan", "BMW")
+print(tuple[2])
+
+# LAB 3 - EXAMPLE ON WHY TUPLES ARE IMMUTABLE (MEANING THEY CANNOT BE CHANGED)
+
+tuple = ("Tesla", "Bently", "Hummer", "Jeep", "Ferrari")
+tuple[1] = "Nissan"
+print(tuple[1])
+
+ERROR MESSAGE:
+
+line 4, in <module>
+    tuple[1] = "Nissan"
+    ~~~~~^^^
+TypeError: 'tuple' object does not support item assignment
+
+Note: If you receive the above error message, you have successfully demonstrated why tuples are immutable.
+
+Common Interview question: “What’s the difference between a list and a tuple?”
+
+*****************************************************************************************************************************************************
+
+HOMEWORK
+
+Write 10 pieces of code total for labs 1 - 3.
+
+- Lab 1 - two (2) pieces of code for lab 1.
+- Lab 2 - two (2) pieces of code for lab 2.
+- Lab 3 - six (6) pieces of code for lab 3. 
+- Send all homework by Saturday 11:59 PM EST
+- Send to my email: matthewstravels85@gmail.com
