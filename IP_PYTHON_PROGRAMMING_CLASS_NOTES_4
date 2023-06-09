@@ -1,0 +1,53 @@
+CLASS - MAY 21, 2023 - SUNDAY - CLASS 4 @6PM EST
+
+Today’s class with have 4 labs dealing with lists.
+
+LISTS
+
+- In work you’ll be dealing with large amounts of data. When dealing with this you want to make sure that you manage this data properly.
+- A list is essentially just a structure you can use to store lists of information.
+
+PRINTING OUT SPECIFIC ELEMENTS FROM YOUR LISTS:
+
+- Each one of the elements in your lists have a particular numeric index.
+- Standard numeric index in python start at 0 when it comes to lists.
+
+BRACKETS [] ARE REQUIRED TO WORK WITH LISTS
+
+# LAB 1 - CREATING OUR FIRST LIST
+
+Anime = ["Naruto", "Shingeki No Kyojin", "Bleach", "Yu Yu Hakusho", "Dragonball Z"]
+print(Anime)
+
+# LAB 2 PRINTING OUT A SPECIFIC ELEMENT OR VALUE FROM THIS LIST
+
+Cars = ["Tesla", "BWM", "Nissan GTR", "Ferrari", "Ford"]
+print(Cars[4])
+
+Favorite_Female_Actress = ["Stacy Dash", "Halle Berry", "Vivica Fox", "Nia Long", "Rosie Perez", "Eva Mendes"]
+print(Favorite_Female_Actress[-4])
+
+NOTE: [-NEGATIVE NUMBERS] WILL PRINT THE LIST FROM THE LEFT SIDE INSTEAD OF THE RIGHT SIDE.
+
+# LAB 3 PRINTING MULTIPLE ELEMENTS FROM YOUR LIST
+
+Laptops = ["Lenovo", "Apple", "HP", "Dell", "Samsung"]
+print(Laptops[0:3])
+
+# LAB 4 - MODIFYING A VALUE IN YOUR LIST AND UPDATING IT
+
+Anime = ["Bleach", "Naruto", "Captain Tsubasa", "One Piece", "Dragonball Z"]
+Anime[3] = "Slam Dunk" 
+print(Anime[3])
+
+ANIME[3] = “SLAM DUNK” BY ITSELF WILL REPLACES “ONE PIECE”
+PRINT(ANIME[3]) = WILL ONLY PRINT “SLAM DUNK”
+
+**************************************************************************************************************************************************
+
+HOMEWORK:
+
+- Add to your python journal documenting your work. 
+- Write 5 pieces of code for each list labs we worked on today.
+- Send all homework by Saturday 11:59 PM EST
+- Send to my email: matthewstravels85@gmail.com
