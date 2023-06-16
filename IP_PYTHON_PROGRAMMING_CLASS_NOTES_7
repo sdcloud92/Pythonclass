@@ -1,0 +1,100 @@
+CLASS - June 11, 2023 - SUNDAY - CLASS 8 @6PM EST
+
+COMPLEX FUNCTIONS
+
+- A function is a collection of code, which performs a specific task.
+- You can pass data, known as parameters, into a function. 
+- You’ll  want to name your functions in lowercase. E.g., write def dogs_are_cool(): instead of DEF DOGS_ARE_COOL():
+
+DEF
+
+- Def is a keyword used to tell python that you are creating a function
+- Def has a specific format to follow in order to create a function
+
+RETURN STATEMENT
+
+- You can use the return statement in python functions
+- Sometimes when we we call a function, we are going to want to get information back from that function 
+
+USE CASES: IN CYBER SECURITY YOU MAY NEED TO CREATE A FUNCTION FOR FINDING ALL OPEN PORTS ON WEB SERVERS.
+
+# LAB 1 - CREATING OUR FIRST FUNCTION
+
+def what_car_you_drive():
+    print("I drive a Tesla")
+
+what_car_you_drive()
+
+# LAB 2 - ANOTHER FUNCTION EXERCISE
+
+def the():
+    print("The")
+
+print("Enter")
+the()
+print("Game")
+
+# LAB 3 - SLIGHTLY MORE COMPLEX FUNCTION CODE
+
+def make(model):
+    print("Blue " + model)
+
+make("Tesla")
+make("Nissan")
+make("Benz")
+
+# LAB 4 - ANOTHER COMPLEX FUNCTION CODE
+
+def introductions(name, height):
+    print("Good Afternoon " + name + " you work in IT and you are " + height)
+
+introductions("Edwin", "190 CM")
+introductions("Jason", "185 CM")
+introductions("Hannah", "120 CM")
+introductions("Keisha", "570 CM")
+
+def introductions(name, height, square):
+    print("Good Afternoon " + name + " you work in IT and you are " + height + "and you are " + square + " Thanks!")
+
+introductions("Edwin", "190 CM", "shape")
+introductions("Jason", "185 CM", "shape")
+introductions("Hannah", "120 CM", "shape")
+introductions("Keisha", "570 CM", "shape")
+
+# LAB 5 - USING TUPLES WITHIN A FUNCTION
+
+Quick note:
+- Using tuples within a function
+- Input a* before the sole argument name in the function if you don’t know how many arguments you will work with
+- Let’s lab using tuples
+
+**********************************************************************************************************************
+HERE IS THE CODE BELOW
+**********************************************************************************************************************
+def vehicles(*cars):
+    print("The best car in the world is " + cars[2])
+
+vehicles("Telsa", "Mercedes", "Range Rover", "Nissan", "Ferari")
+
+# LAB 6 - ADDING NUMBERS TOGETHER USING THE RETURN STATEMENT IN OUR FUNCTION
+
+def add():
+    return 8+3+10
+
+print(add())
+
+# LAB 7 - MULTIPLYING NUMBERS WITH THE RETURN STATEMENT IN OUR FUNCTION
+
+def multiply(num1, num2):
+    result = num1 * num2
+    return result
+
+print(multiply(5,5)) 
+
+*******************************************************************************************************************
+HOMEWORK:
+
+- Add to your python journal documenting you work.
+- You must send International Passport (IP) all your Python Journal by Saturday 11:59 PM EST
+- Send to my email: matthewstravels85@gmail.com
+*******************************************************************************************************************
