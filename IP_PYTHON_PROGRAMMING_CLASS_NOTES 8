@@ -1,0 +1,138 @@
+INTERNATIONAL PASSPORT: PYTHON PROGRAMMING  
+CLASSNOTES & HOMEWORK ASSIGNMENT:
+CLASS - June 18, 2023 - SUNDAY - CLASS 8 @4:45PM EST
+
+DICTIONARIES
+
+⁃	Dictionaries are special structure in python which allows you to store information in what are called key value pairs.
+⁃	The user creates key value pairs and when he wants to access of information inside the dictionary, he can refer to it by its key.
+⁃	When playing with dictionaries you alway want to use curly brackets.
+
+DICTIONARIES CONTINUED
+
+⁃	Dictionaries are like lists. They both share the following properties:
+⁃	Both can die used to store values
+⁃	Both can be changed in place and can grow and shrink on demand
+⁃	The main difference between lists and dictionaries is how they are accessed
+
+# LAB 1 - WRITING OUR FIRST DICTIONARY AND CALLING FROM IT
+
+NBA_MOST_VALUABLE_PLAYER_AWARD = {
+    2013: "Lebron James",
+    2014: "Kawhi Leonard",
+    2015: "Andre Iguodala",
+    2016: "Lebron James",
+    2017: "Kevin Durant",
+    2018: "Kevin Durant",
+    2019: "Kawhi Leonard", 
+    2020: "Lebron James",
+    2021: "Giannis Antetokoumpo",
+    2022: "Stephen Curry",
+    2023: "Nikola Jokic"
+}
+print(NBA_MOST_VALUABLE_PLAYER_AWARD[2022])
+
+# LAB 2 - ANOTHER EXAMPLE OF A DICTIONARY
+
+Movie = {
+    "Title": "Good Fellas",
+    "Director": "Martin Scoresese",
+    "Year": 1990,
+    "Rating": 9.5
+}
+print(Movie["Title"])
+
+# LAB 3 - UPDATING THE MOVIE VALUE SCORE
+
+Movie = {
+    "Title": "Good Fellas",
+    "Director": "Martin Scoresese",
+    "Year": 1990,
+    "Rating": 9.5
+}
+Movie["Rating"] = (Movie["Rating"] + 2)
+print(Movie["Rating"])
+
+# LAB 4 - STORE A LIST INSIDE A DICTIONARY AND STORE A DICTIONARY WITHIN THAT DICTIONARY
+
+Movie = {}
+Movie["Title"] = "City of God"
+Movie["Director"] = "Fernandy Meirelles"
+Movie["Year"] = 2002
+Movie["Rating"] = 8.2
+
+Movie["Actors"] = ["Alexandre Rodrigues", "Alice Braga", "Douglas Silva"]
+Movie["More_Facts"] = {
+    "MovieLength": 180,
+    "Language": "English"
+}
+
+print(Movie)
+
+DICTIONARY METHODS / FUNCTIONS
+
+⁃	All Pythons types, including dictionaries, have their own methods. Since dictionaries include keys and values, it’s common to access them using dictionary methods.
+⁃	A method is a function that belongs to an object. For example, lists objects have methods called append, insert, remove, sort, and so on. 
+⁃	Methods differ from functions because with functions they re not linked to anything and are independent blocks of code that can be called from anywhere. But with methods these will belong to a specific object. For example, you can’t use list methods in dictionaries. 
+
+DICTIONARY METHODS / FUNCTIONS
+
+⁃	get() - This method will return the value of the specific key
+⁃	values() - This method will return a list of all the values in the dictionary
+⁃	 keys() - Used to retrieve all of the keys from the dictionary. 
+⁃	The keys must be of an immutable type (string, number, or tuple with immutable elements) and must be unique.
+⁃	copy() - Is a method that is used on objects to create copies of them. 
+⁃	It returns a shallow copy of the list.
+
+# LAB 5 - IN BUILT DICTIONARY FUNCTION USING GET()
+
+NBA_MOST_VALUABLE_PLAYER_AWARD = {
+    2019: "Kawhi Leonard",
+    2020: "Lebron James",
+    2021: "Giannis Antetokoumpo",
+    2022: "Stephen Curry",
+    2023: "Nikola Jokic"
+}
+print(NBA_MOST_VALUABLE_PLAYER_AWARD.get(2023))
+
+# LAB 6 - IN BUILT DICTIONARY FUNCTION USING VALUES()
+
+NBA_MOST_VALUABLE_PLAYER_AWARD = {
+    2019: "Kawhi Leonard",
+    2020: "Lebron James",
+    2021: "Giannis Antetokoumpo",
+    2022: "Stephen Curry",
+    2023: "Nikola Jokic"
+}
+print(NBA_MOST_VALUABLE_PLAYER_AWARD.values())
+
+# LAB 7 - IN BUILT DICTIONARY FUNCTION USING KEYS()
+
+NBA_MOST_VALUABLE_PLAYER_AWARD = {
+    2019: "Kawhi Leonard",
+    2020: "Lebron James",
+    2021: "Giannis Antetokoumpo",
+    2022: "Stephen Curry",
+    2023: "Nikola Jokic"
+}
+print(NBA_MOST_VALUABLE_PLAYER_AWARD.keys())
+
+# LAB 8 - IN BUILT DICTIONARY FUNCTION USING COPY()
+
+NBA_MOST_VALUABLE_PLAYER_AWARD = {
+    2019: "Kawhi Leonard",
+    2020: "Lebron James",
+    2021: "Giannis Antetokoumpo",
+    2022: "Stephen Curry",
+    2023: "Nikola Jokic"
+}
+print(NBA_MOST_VALUABLE_PLAYER_AWARD.copy())
+________________________________________________________________________
+
+HOMEWORK:
+
+⁃	Add to your python journal documenting you work.
+⁃	Write 2 different examples of each lab dictionaries
+⁃	You must send International Passport (IP) all your homework by Saturday 11:59 PM EST
+⁃	Send to my email: matthewstravels85@gmail.com
+________________________________________________________________________
