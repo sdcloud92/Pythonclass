@@ -1,0 +1,91 @@
+
+CLASS - July 2, 2023 - SUNDAY - CLASS 10 @6:30 PM EST (INTERMEDIATE)
+
+
+WHILE LOOP 
+- A while loop will run a piece of code while a condition is true. It will keep executing the desired set of code statements until that condition is no longer true.
+- It is a structure in python which allows you to loop through and execute a block of code multiple times.
+
+# LAB 1 - OUR FIRST WHILE LOOP EXAMPLE
+
+i = 1
+while i <= 10:
+    print(i)
+    i += 1 
+
+print("The Loop Ends Here!")
+
+# LAB 2 - NEVER ENDING LOOP EXAMPLE
+
+i = 1
+while i <=10: 
+    print(i)
+
+print("The Loop Ends Here!")
+
+# LAB 3 - WHILE LOOP WITH STATEMENTS
+
+i = 1
+while i<=5:
+    print("Bleach")
+    i = i + 1
+
+INTRODUCTION TO F STRINGS
+- F strings are used to format data that you want to add in. 
+-  You must place the expression or value in the middle of strings.
+- F-strings are string literals that have an f at the beginning and curly brackets containing expressions that will be replaced with their values
+
+# LAB 4 - F STRING LAB
+
+car = "Tesla"
+
+print(f"The car I drive is {car}")
+
+# LAB 5 - COMBINE WHILE WITH THE INPUT FUNCTION AND F STRING (COMPLEX)
+
+Name = input("Enter Your Name To Begin The Game: ")
+
+while Name == "":
+    print("Player One Did Not Enter His Name")
+    Name = input("Enter Your Name To Begin the Game: ")
+print(f"Welcome! {Name}")
+
+# LAB 6 - MORE COMPLEX WHILE LOOP CODE
+
+age = int(input("Enter Your Age To Begin The Game: "))
+
+while age < 0:
+    print("Age Can't be Negative!")
+    age = int(input("Enter Your Age To Begin The Game: "))
+
+print(f"You are {age} years old!")
+
+# LAB 7 - USING THE "NOT" OPERATOR WITH WHILE LOOPS
+
+Anime = input("Enter an anime series that you like (press q to quit): ")
+
+while not Anime == "q":
+    print(f"You like {Anime}")
+    Anime = input("Enter another anime series that you like (press q to quit): ")
+
+print("Thanks for letting us know what anime shows you like!")
+
+# LAB 8 - USING THE "OR" OPERATOR with WHILE LOOPS
+
+num = int(input("Enter a Number Between 1 - 20: "))
+
+while num < 1 or num > 20:
+    print(f"{num} is not valid")
+    num = int(input("Enter a Number Between 1 - 20: "))
+
+print(f"Your Number is {num}")
+
+________________________________________________________________________________________________________
+
+HOMEWORK:
+
+- Add to your python journal documenting you work.
+- Write 2 different examples of each lab per subject e.g. While loops, Never Ending loop, etc.
+- You must send International Passport (IP) all your homework by Saturday 11:59 PM EST
+- Send to my email: matthewstravels85@gmail.com
+_________________________________________________________________________________________________________
