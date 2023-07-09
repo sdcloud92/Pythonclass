@@ -1,0 +1,74 @@
+
+INTERNATIONAL PASSPORT: PYTHON PROGRAMMING  
+CLASSNOTES & HOMEWORK ASSIGNMENT
+CLASS - July 9, 2023 - SUNDAY - CLASS 11 @6:30 PM EST (INTERMEDIATE)
+
+FOR LOOP
+⁃	A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string, or a set of numbers).
+⁃	A for loop is a special type of loop in python that allows us to loop over different collections of items.
+
+# LAB 1 - APPLYING "FOR LOOP" TO A STRING
+
+for letter in "Naruto Uzumaki":
+    print(letter)
+
+# LAB 2 - APPLY "FOR LOOP" TO A LIST
+
+Animecharacters = ["Goku", "Vegeta", "Piccolo", "Chi Chi"]
+for Anime in Animecharacters:
+    print(Anime)
+
+# LAB 3 - APPLY "FOR LOOP" TO A SERIES OF NUMBERS WITH THE RANGE FUNCTION
+
+for index in range(21):
+    print(index)
+
+# LAB 4 - APPLYING "FOR LOOP" TO A SERIES OF A SPECIFIC RANGE OF NUMBERS
+
+for index in range (10, 21):
+    print(index)
+
+FOR LOOP AND THE BREAK STATEMENT
+⁃	The break statement can stop a loop before it has looped through all the elements
+
+# LAB 5 - APPLYING "FOR LOOP" TO BREAK STATEMENTS
+
+cars = ["Tesla", "BMW", "Mercedes", "Hummer"]
+for x in cars: 
+    print(x)
+    if x == "BMW":
+        break
+
+FOR LOOP AND THE CONTINUE STATEMENT
+⁃	The continue statement and stop or skip the current iteration of the loop, and then continue with the next 
+
+# LAB 6 - APPLYING FOR LOOP TO CONTINUE STATEMENTS
+
+laptops = ["Lenovo", "HP", "Mac", "Dell", "Toshiba"]
+for y in laptops:
+    if y == "HP":
+        continue
+    print(y)
+
+# LAB 7 - APPLYING "FOR LOOP" TO ESLE STATEMENTS
+
+animecharacters = ["Vegeta", "Goku", "Piccolo", "Chi Chi", "Yamcha"]
+for x in animecharacters:
+    print(x)
+else:
+    print("These are some of the characters in Dragon Ball Z")
+
+# LAB 8 - APPLYING "FOR LOOP" TO THE END PARAMETER
+
+animecharacters = ["Vegeta,", "Goku,", "Piccolo,", "Chi Chi,", "Yamcha"]
+for anime in animecharacters:
+    print(anime, end=" ")
+________________________________________________________________________
+
+HOMEWORK:
+
+⁃	Add to your python journal documenting you work.
+⁃	Write 2 different examples of each lab that we worked on (lab1 through lab8)
+⁃	You must send International Passport (IP) all your homework by Saturday 11:59 PM EST
+⁃	Send to my email: matthewstravels85@gmail.com
+________________________________________________________________________
