@@ -1,0 +1,62 @@
+INTERNATIONAL PASSPORT: PYTHON PROGRAMMING  
+CLASSNOTES & HOMEWORK ASSIGNMENT
+CLASS - July 16, 2023 - SUNDAY - CLASS 11 @5:30 PM EST (INTERMEDIATE)
+
+TRY EXCEPT
+⁃	Try except is sued to catch errors in Python and will allow your program to try out a piece of code and win what was entered was incorrect, try except will account for that and let the user know they entered in the wrong piece of data. 
+⁃	It relates to events that were detected during execution that interrupt the flow of the program.
+
+# LAB 1 - A PROGRAM THAT WORKS CORRECTLY 
+
+Number = int(input("Enter A Number to Start the Game: "))
+print(Number)
+
+# LAB 2 - A PROGRAM THAT DOES NOT WORK CORRECTLY 
+
+Number = int(input("Enter A Number to Start the Game: "))
+print(Number)
+
+# LAB 3 - APPLYING THE TRY EXCEPT PRINCIPLE TO OUR CODE
+
+EXAMPLE (1):
+try:
+    Number = int(input("Enter A Number to Start the Game: "))
+    print(Number)
+except:
+    print("Invalid Input, You Did Not Enter A Number! Please Try Again!")
+
+EXAMPLE (2):
+try:
+    Number = int(input("Enter A Number to Start the Game: "))
+    print(Number)
+except:
+    print("Invalid Input, You Did Not Enter A Number! Please Try Again!")
+else:
+    print("Thanks For Entering Your Number!")
+
+# LAB 4 - ANOTHER EXAMPLE OF TRY EXCEPT TO OUR CODE
+
+try:
+    Number = 50/0
+    Number = int(input("Enter a Number: "))
+    print(Number)
+except:
+    print("Invalid Input, please try again")
+
+# LAB 5 - USING THE TRY EXCEPT TO ACCOUNT FOR TWO ERRORS IN MY CODE
+
+try:
+    Number = int(input("Enter a Number: "))
+    print(Number)
+except ZeroDivisionError:
+    print("Hey! It is impossible to Divide by Zero!")
+except ValueError:
+    print("Invalid Input, please try again")
+________________________________________________________________________
+
+HOMEWORK:
+
+⁃	Add to your python journal documenting you work.
+⁃	You must all send me your updated python journal of what we have done so far in all our classes by Saturday 11:59 PM EST
+⁃	Send to my email: matthewstravels85@gmail.com
+________________________________________________________________________
