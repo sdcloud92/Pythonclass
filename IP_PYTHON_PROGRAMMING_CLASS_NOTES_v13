@@ -1,0 +1,108 @@
+INTERNATIONAL PASSPORT: PYTHON PROGRAMMING  
+CLASSNOTES & HOMEWORK ASSIGNMENT
+CLASS - July 23, 2023 - SUNDAY - CLASS 13 @6:30 PM EST (INTERMEDIATE)
+
+READING FILES 
+⁃	It is possible to read from external files using python
+⁃	In python there will be times when you have to read from files outside your python file (e.g. a text file or csv file)
+⁃	You can use the python read command to allow you to read a file that is stored outside your python file
+
+MODES
+⁃	Modes (these are important modes you should know as you’ll be using these the most)
+⁃	R (read) - Allow you to read the file instead of modifying or changing it
+⁃	W (write) - this means that you change the file, such as writing new information and change existing information 
+⁃	A (append) - Allow you to append information onto the end. It opens the file in append mode, and when the file is opened in append mode, the file pointer points to the end of the file.
+
+# LAB 1 - CREATING A TEXT FILE
+
+*******************************************************************************************************************************************************************************
+MAC/LINUX USERS ONLY: 
+(HOW TO CREATE A NEW FILE IN TERMINAL / EQUIVALENT TO NOTEPAD)
+
+1.	In terminal use this command “PWD” - Print Working Directory
+2.	In terminal use this command “LS” - List
+3.	In terminal use this command “CD” - Change Directory to ==>> Desktop <<== command: cd desktop
+4.	In terminal use this command “CD” - Change Directory to your Python folder command: cd “my first python folder”
+5.	In terminal use this command “LS” within the “my first python folder” command: ls
+6.	In terminal use this command “TOUCH” to create a new text file command: touch < filename.txt > (animelist2.txt)
+7.	In terminal use this command “ECHO” to add content to the new file < filename.txt > command: echo “Naruto” >> animelist2.txt
+8.	In terminal use this command “ECHO” to add content to the new file < filename.txt > command: echo “Bleach” >> animelist2.txt
+9.	In terminal use this command “ECHO” to add content to the new file < filename.txt > command: echo “Dragonball Z” >> animelist2.txt
+10.	In terminal use this command “ECHO” to add content to the new file < filename.txt > command: echo “Demon Slayer” >> animelist2.txt
+11.	In terminal use this command “CAT” to review the changes to the file < filename.txt > command: cat animelist2.txt
+
+NOTE: YOU SHOULD BE ABLE TO REVIEW THE NEW TEXT FILE TITLED “ANIMELIST2.TXT” OR WHATEVER YOU NAMED THE FILE. NOW OPEN OF YOUR VISUAL STUDIO CODE AND SELECT THE FILE IN PYTHON
+
+******************************************************************************************************************************************************************************
+
+anime_file = open("animelist.txt", "r")
+print(anime_file.readable())
+
+WHEN YOU RUN THE CODE YOU SHOULD SEE A VALUE OF “TRUE” IN THE PYTHON TERMINAL
+
+# LAB 2 - PLAYING WITH A FUNCTION TO SEE IF OUR FILE CAN BE READ
+
+anime_file = open("animelist.txt", "r")
+print(anime_file.read())
+
+# LAB 3 - READING THE CONTENTS OF A FILE 
+
+anime_file = open("animelist.txt", "r")
+print(anime_file.read())
+anime_file.close()
+
+# LAB 4 - READ AN INDIVIDUAL LINE FROM OUR FILE
+
+EXAMPLE 1 - CONDENSED AND MORE EFFICIENT (PROFESSIONAL STANDARD)
+anime_file = open("animelist.txt", "r")
+print(anime_file.readlines())
+anime_file.close()
+
+EXAMPLE 2 - SPECIFIC LINE FROM OUR CODE (TEDIOUS AND INEFFICIENT)
+anime_file = open("animelist.txt", "r")
+print(anime_file.readline())
+print(anime_file.readline())
+print(anime_file.readline())
+print(anime_file.readline())
+anime_file.close()
+
+# LAB 5 - USING THE .READLINES () FUNCTION TO READ A SPECIFIC LINE WE NEED
+
+EXAMPLE 1 - USING DEMON SLAYER
+anime_file = open("animelist.txt", "r")
+print(anime_file.readlines()[3])
+anime_file.close()
+
+EXAMPLE 2 - USING BLEACH
+anime_file = open("animelist.txt", "r")
+print(anime_file.readlines()[1])
+anime_file.close()
+
+# LAB 6 - ADDING TO OUR LIST USING THE (A)PPEND MODE 
+(WRITING AND APPENDING TO FILES IN PYTHON)
+
+anime_file = open("animelist.txt", "a")
+anime_file.write("\nGundan")
+anime_file.close()
+
+# LAB 7 - USE (W)RITE TO OVERWRITE OUR EXISTING FILE
+
+anime_file = open("animelist.txt", "w")
+anime_file.write("Michael Jordan")
+anime_file.close()
+
+# LAB 8 - USE (W)RITE TO CREATE A NEW FILE
+
+anime_file = open("animelist1.txt", "w")
+anime_file.write("Naruto \nBleach")
+anime_file.close()
+
+________________________________________________________________________
+
+HOMEWORK:
+
+⁃	Add to your python journal documenting you work.
+⁃	Write 2 different examples of each lab that we worked on (lab1 through lab8)
+⁃	You must send International Passport (IP) all your homework by Saturday 11:59 PM EST
+⁃	Send to my email: matthewstravels85@gmail.com
+________________________________________________________________________
