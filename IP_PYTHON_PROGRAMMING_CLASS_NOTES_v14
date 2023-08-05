@@ -1,0 +1,87 @@
+
+CLASS - July 31, 2023 - SUNDAY - CLASS 14 @6:30 PM EST (INTERMEDIATE)
+ 
+MODULES
+- A module is an external python file that you can import into you current python file you ware working on. 
+- A module file contains functions, classes, variables and other components that you can access in the current python file you are working on.
+
+
+# LAB 1 - IMPORTING FROM ANOTHER PYTHON FILE INTO OUR MAIN PYTHON FILE
+
+===========================================================================================
+PYTHON - TESTFILE 
+
+def add(x,y):
+    return x + y
+def sub(x,y):
+    return x - y
+def mul(x,y):
+    return x * y
+def div(x,y):
+    return x / y
+===========================================================================================
+
+from testfile import add
+
+print(add(70,30))
+
+# LAB 2 - USING * TO IMPORT EVERY OTHER CODE INTO OUR MAIN PYTHON FILE
+
+from testfile import *
+
+print(add(70,30))
+print(sub(80,60))
+print(mul(30,20))
+print(div(10,100))
+
+MODULES CONTINUED 
+
+- Notice how you did not have to write down the whole code again from the other file and yet we were able to use every bit of code using the import feature.
+- This allows you to save time. 
+- You only need to write something once and then you can import it into your other files.
+
+MODULES CONTINUED
+
+- There is place where you can go to find a full list of modules for you to use.
+- Https://docs.python.org/3/py-modindex.html (official python doc website)
+- The link above provides a massive list of python modules.
+- We also call these packages as packages are simply just a published collection of modules.
+- Anyone can use and access these modules.
+- When you using python modules make sure the modules are the same version of the current python you are using.
+
+MODULES CONTINUED
+
+- To install these third-party modules, we use “pip”
+- Pip is simply a command line installer that is referred to as a package manager.
+- Pip also allows you to update and uninstall different pythons modules.
+
+Go to this link: 
+Https://python-docx.readthedocs.io/en/latest/user/install.html
+(This link is required in order to complete lab 3)
+
+If you do not have pip installed in your python environment, please go here:
+https://pip.pypa.io/en/stable/installation/
+
+# LAB 3 - CREATING A WORD DOCUMENT USING THE DOCX MODULE INSTALLED WITH PYTHON
+
+from docx import Document
+
+Document = Document()
+
+Document.save(“Document Created by Python.docx”)
+
+(Installation Instructions for Pip on Linux / Mac users):
+
+1. Terminal Command: pip install package_name
+2. Terminal Command: python3 get-pip.py
+3. Terminal Command: pip --version
+4. Terminal Command: pip install python-docx
+
+________________________________________________________________________________________________________
+
+HOMEWORK:
+
+- Add to your python journal documenting you work.
+- You must send International Passport (IP) all your homework by Saturday 11:59 PM EST
+- Send to my email: matthewstravels85@gmail.com
+_________________________________________________________________________________________________________
