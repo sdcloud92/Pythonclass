@@ -1,0 +1,67 @@
+INTERNATIONAL PASSPORT: PYTHON PROGRAMMING  
+CLASSNOTES & HOMEWORK ASSIGNMENT
+CLASS - August 6, 2023 - SUNDAY - CLASS 13 @6:45 PM EST (INTERMEDIATE)
+
+CLASSES AND OBJECTS
+⁃	Python is an objected oriented programming language.
+⁃	Everything in python is an object. Using python, we can create classes and objects.
+⁃	In python we can use several different data such as strings, numbers, lists etc.
+⁃	With classes and objects, we can create our own data types for anything we want in python.
+⁃	Therefore, you could create a computer data type and it could represent a computer and store information.
+
+WHAT IS A CLASS?
+⁃	A class is a code template or blueprint for creating objects in python. 
+⁃	With a class you can define your own data type.
+⁃	We can think of the class as a sketch (prototype) of a computer. 
+
+WHAT IS AN OBJECT?
+1.	An object is called an instance of a class. For example, suppose computer is a class then we can create objects like computer1, computer2, computer 3, etc.
+
+# LAB 1 - CREATING OUR FIRST CLASSES AND OBJECTS IN PYTHON
+
+class Computer:
+
+    def __init__(self, screen, motherboard, mouse, headset, brand_is_dell):
+        self.screen = screen
+        self.motherboard = motherboard
+        self.mouse = mouse
+        self.headset = headset
+        self.brand_is_dell = brand_is_dell
+
+
+computer1 = Computer("Samsung", "ASRock", "Logitech", "LG", False)
+computer2 = Computer("LG", "Apple", "Microsoft", "Alienware", True)
+
+print(computer2.motherboard)
+
+Note: if you get this error (TypeError: Computer() takes no arguments), it’s because you didn’t include two underscore spaces in the init function “__init__”
+
+# LAB 2 - ADDING A FUNCTION TO OUR CLASS IN PYTHON
+
+class Computer:
+
+    def __init__(self, screen, motherboard, mouse, headset, brand_is_dell, mouseduration):
+        self.screen = screen
+        self.motherboard = motherboard
+        self.mouse = mouse
+        self.headset = headset
+        self.brand_is_dell = brand_is_dell
+        self.mouseduration = mouseduration
+
+    def newbuilt(self):
+        if self.mouseduration <= 2:
+            return True
+        else:
+            return False
+        
+computer1 = Computer("Samsung", "ASRock", "Logitech", "LG", False, 1)
+
+print(computer1.newbuilt())
+______________________________________________________________________________
+
+HOMEWORK:
+
+⁃	Add to your python journal documenting you work.
+⁃	You must send International Passport (IP) all your homework by Saturday 11:59 PM ES
+⁃	Send to my email: matthewstravels85@gmail.com
+______________________________________________________________________________
