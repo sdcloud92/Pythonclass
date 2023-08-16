@@ -1,0 +1,78 @@
+CLASS - August 13, 2023 - SUNDAY - CLASS 15 @7 PM EST (INTERMEDIATE) - FINAL CLASS
+
+INHERITANCE
+- Inheritance is where we can define attributes and function inside of a class.
+- Then we can create another class and we can inherit all of those attributes and functions.
+- Classes can inherit something, usually attributes and methods from another class.
+- Parent class - is the class being inherited from, also called the base class.
+- Child class - is the class that is inheriting from the parent class.
+
+# LAB 1 - INHERITANCE
+
+class Cars:
+
+    Drive = True
+
+    def drift(self):
+        print("This car can drift")
+
+    def speed(self):
+        print("This car has top speed")
+
+class Tesla(Cars):
+    pass
+
+class Nissan(Cars):
+    pass
+
+class Ford(Cars):
+    pass
+
+tesla = Tesla()
+nissan = Nissan()
+ford = Ford()
+
+print(Tesla.Drive)
+nissan.drift()
+ford.speed()
+
+# LAB 2 - INHERITANCE (CONTINUED)
+
+class Cars:
+
+    Drive = True
+
+    def drift(self):
+        print("This car can drift")
+
+    def speed(self):
+        print("This car has top speed")
+
+class Tesla(Cars):
+    def doors(self):
+        print("This Telsa has two doors")
+
+class Nissan(Cars):
+    def windows(self):
+        print("This Nissan car has blockout windows")
+
+class Ford(Cars):
+    def headlights(sel):
+        print("This Ford has two headlights")
+
+tesla = Tesla()
+nissan = Nissan()
+ford = Ford()
+
+tesla.doors()
+nissan.windows()
+ford.headlights()
+
+________________________________________________________________________________________________________
+
+HOMEWORK:
+
+- Add to your python journal documenting you work.
+- You must send International Passport (IP) all your homework by Saturday 11:59 PM ES
+- Send to my email: matthewstravels85@gmail.com
+_________________________________________________________________________________________________________
